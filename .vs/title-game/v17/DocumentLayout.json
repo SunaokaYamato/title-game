@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\App.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\components\\GameScreen.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\GameScreen.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\server\\index.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\index.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\components\\VoteScreen.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\VoteScreen.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\server\\index.js",
+              "RelativeDocumentMoniker": "server\\index.js",
+              "ToolTip": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\server\\index.js",
+              "RelativeToolTip": "server\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-20T04:14:01.969Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameScreen.tsx",
+              "DocumentMoniker": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\components\\GameScreen.tsx",
+              "RelativeDocumentMoniker": "src\\components\\GameScreen.tsx",
+              "ToolTip": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\components\\GameScreen.tsx",
+              "RelativeToolTip": "src\\components\\GameScreen.tsx",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-20T08:07:47.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\App.tsx",
+              "RelativeDocumentMoniker": "src\\App.tsx",
+              "ToolTip": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\App.tsx",
+              "RelativeToolTip": "src\\App.tsx",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwIEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-20T04:19:54.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoteScreen.tsx",
+              "DocumentMoniker": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\components\\VoteScreen.tsx",
+              "RelativeDocumentMoniker": "src\\components\\VoteScreen.tsx",
+              "ToolTip": "C:\\Users\\Satsuki\\OneDrive\\Desktop\\\u88FD\u4F5C\\title-game\\src\\components\\VoteScreen.tsx",
+              "RelativeToolTip": "src\\components\\VoteScreen.tsx",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAcwGcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-20T04:59:58.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
