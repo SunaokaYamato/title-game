@@ -1,6 +1,8 @@
 import { io } from 'socket.io-client';
 
-// Ú‘±æiƒ[ƒJƒ‹ŠJ”­‚Å‚Íƒ|[ƒg4000j
-const socket = io('http://localhost:4001');
+// ğŸ‘‡ Render ã® URL ã«ç½®ãæ›ãˆ
+const socket = io('https://title-game-server.onrender.com', {
+  transports: ['websocket'],
+});
 
 export default socket;
