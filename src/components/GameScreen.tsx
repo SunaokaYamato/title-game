@@ -66,7 +66,7 @@ function GameScreen({
     return () => {
       socket.off('deal-hand', handleDealHand);
     };
-  }, []);
+  }, [turn]);
 
   // ✅ ジャンル・UIリセット（毎ターン）
   useEffect(() => {
