@@ -56,7 +56,7 @@ function GameScreen({
     setOrder(newOrder);
   };
 
-  // ✅ 手札受信（turn に依存しないで常に受け取る）
+  // ✅ 手札受信
   useEffect(() => {
     const handleDealHand = (cards: string[]) => {
       console.log('🃏 受け取った手札:', cards);
@@ -130,7 +130,6 @@ function GameScreen({
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">手札（2枚まで選択）</h3>
         <div className="flex flex-wrap gap-2 justify-center">
-          console.log("🖼️ hand 状態:", hand);
           {hand.map((card, idx) => (
             <button
               key={idx}
