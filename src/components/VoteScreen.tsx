@@ -38,7 +38,7 @@ function VoteScreen({ roomId,　myName, titles, votes,　votedPlayers, readyPlay
     return () => {
       socket.off('all-voted'); // クリーンアップ
     };
-  }, []);
+  }, [turn]);
 
   return (
     <div className="min-h-screen bg-pink-400 p-6">
