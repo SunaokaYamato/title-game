@@ -55,7 +55,10 @@ function GameScreen({
     newOrder[index] = actualValue;
     setOrder(newOrder);
   };
-
+  
+　// ここで毎回レンダー時に hand の中身を出力
+  console.log('🖼️ render hand:', hand);
+  
   // ✅ 手札受信
   useEffect(() => {
     const handleDealHand = (cards: string[]) => {
@@ -66,7 +69,7 @@ function GameScreen({
     return () => {
       socket.off('deal-hand', handleDealHand);
     };
-  }, [turn]);
+  }, []);
 
   // ✅ ジャンル・UIリセット（毎ターン）
   useEffect(() => {
@@ -130,9 +133,9 @@ function GameScreen({
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">手札（2枚まで選択）</h3>
         <div className="flex flex-wrap gap-2 justify-center">
-          {hand.map((card, idx) => (
+          {hand.map((card) => (
             <button
-              key={idx}
+              key={card}
               onClick={() => toggleCard(card)}
               className={`px-4 py-2 rounded border text-lg transition ${
                 selected.includes(card)
