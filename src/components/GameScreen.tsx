@@ -1,7 +1,6 @@
 ﻿import { useState, useEffect } from 'react';
-import genres from '../data/genres';
-import type { Genre } from '../data/genres';
 import socket from '../socket';
+import { Genre } from '../types';
 
 type GameScreenProps = {
   playerName: string;
@@ -74,16 +73,28 @@ function GameScreen({
     socket.emit('request-hand', { roomId, playerName });
   }, [turn]);
   
-  // ✅ ジャンル・UIリセット（毎ターン）
+  // ✅ UIリセット（毎ターン）
   useEffect(() => {
-    const random = genres[Math.floor(Math.random() * genres.length)];
-    setGenre(random);
     setSelected([]);
     setFreeword('');
     setOrder(['', '', '']);
     setCardToDiscard(null);
     setHasSubmitted(false); // 🔁 ターン開始時に解除
   }, [turn]);
+  
+  // ✅ ジャンル受信
+  useEffect(() => {
+    const handleGenre = (genreFromServer: Genre) => {
+      console.log('🎨 受信したジャンル:', genreFromServer);
+      setGenre(genreFromServer);
+    };
+  
+    socket.on('new-genre', handleGenre);
+  
+    return () => {
+      socket.off('new-genre', handleGenre);
+    };
+  }, []);
 
   const toggleCard = (card: string) => {
     if (selected.includes(card)) {
