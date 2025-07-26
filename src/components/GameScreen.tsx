@@ -71,6 +71,12 @@ function GameScreen({
     };
   }, []);
 
+  // ✅ 手札リクエスト
+  useEffect(() => {
+  // ターンが変わったらサーバーに現在の手札を「ください」とリクエスト
+    socket.emit('request-hand', { roomId, playerName });
+  }, [turn]);
+  
   // ✅ ジャンル・UIリセット（毎ターン）
   useEffect(() => {
     const random = genres[Math.floor(Math.random() * genres.length)];
