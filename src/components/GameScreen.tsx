@@ -56,9 +56,6 @@ function GameScreen({
     setOrder(newOrder);
   };
   
-　// ここで毎回レンダー時に hand の中身を出力
-  console.log('🖼️ render hand:', hand);
-  
   // ✅ 手札受信
   useEffect(() => {
     const handleDealHand = (cards: string[]) => {
