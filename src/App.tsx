@@ -41,10 +41,13 @@ function App() {
       roomId,
       playerName,
       title,
+      usedCards,
     });
   };
 
   const handleVote = (target: string) => {
+    if (votedPlayers.includes(playerName)) return; // 🔒 二重投票防止
+    
     setVotes((prev) => ({
       ...prev,
       [target]: (prev[target] || 0) + 1,
