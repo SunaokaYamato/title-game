@@ -101,7 +101,7 @@ function GameScreen({
     const title = unique.join('');
 
     // サーバー送信（App.tsx 側に統一済）
-    onSubmitTitle(title);
+    onSubmitTitle(title,selected);
 
     socket.emit('submit-title', {
       roomId,
